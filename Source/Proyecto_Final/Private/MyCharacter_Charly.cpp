@@ -3,6 +3,7 @@
 
 #include "MyCharacter_Charly.h"
 
+float life;
 // Sets default values
 AMyCharacter_Charly::AMyCharacter_Charly()
 {
@@ -32,3 +33,7 @@ void AMyCharacter_Charly::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 }
 
+void AMyCharacter_Charly:: Prueba ()
+{
+
+}

@@ -15,6 +15,12 @@ public:
 	// Sets default values for this character's properties
 	AMyCharacter_Charly();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pruebas")
+		int life;
+
+	UFUNCTION(BlueprintCallable, Category = "Luigi")
+		void Prueba();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
