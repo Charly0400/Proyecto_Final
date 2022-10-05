@@ -35,5 +35,5 @@ void AMyCharacter_Charly::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 void AMyCharacter_Charly:: Prueba ()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Puto el que lo lea"));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("OA"));
 }
